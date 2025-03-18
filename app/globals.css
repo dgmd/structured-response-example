@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to your CSS file */
+.markdown h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .markdown h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .markdown p {
+    margin-bottom: 0.5em;
+  }
+  
+  .markdown ul, .markdown ol {
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .markdown li {
+    margin-bottom: 0.25em;
+  }
+  
+  .markdown code {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.2em;
+    border-radius: 3px;
+  }
+  
+  .markdown pre {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+    border-radius: 3px;
+    overflow-x: auto;
+    margin-bottom: 0.5em;
+  }
