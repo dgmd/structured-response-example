@@ -3,11 +3,11 @@ import {
 } from 'next/server';
 import OpenAI from 'openai';
 import {
-  z
-} from "zod";
-import {
   zodResponseFormat
 } from 'openai/helpers/zod';
+import {
+  z
+} from "zod";
 
 export const maxDuration = 300;
 
@@ -76,8 +76,8 @@ export async function POST(request){
           Gender: ${Applicant.gender || 'Not specified'}
           Occupation: ${Applicant.occupation || 'Not specified'}
           Level: ${Applicant.level || 1}
-          Stats: STR ${Applicant.automobiles}, DEX ${Applicant.houses}, CON ${Applicant.debt}, 
-                INT ${Applicant.liquidity}, WIS ${Applicant.income}, CHA ${Applicant.pension}
+          Stats: Automobiles ${Applicant.automobiles}, Houses ${Applicant.houses}, Debt ${Applicant.debt}, 
+                Liquidity ${Applicant.liquidity}, Income ${Applicant.income}, Pension ${Applicant.pension}
           Background: ${Applicant.history || 'Not specified'}
           reason: ${Applicant.reason || 'Not specified'}`
       }

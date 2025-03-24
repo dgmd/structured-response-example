@@ -1,11 +1,11 @@
 'use client'
 
 import {
-  Applicant
-} from './page';
-import {
   FC as ReactFC
 } from 'react';
+import {
+  Applicant
+} from './page';
 
 interface ApplicantFormProps {
   applicant: Applicant;
