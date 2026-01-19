@@ -783,7 +783,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node-fetch", "npm:2.6.12"],\
           ["@types/node", "npm:22.13.13"],\
-          ["form-data", "npm:4.0.2"]\
+          ["form-data", "npm:4.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1777,13 +1777,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["form-data", [\
-      ["npm:4.0.2", {\
-        "packageLocation": "../../.yarn/berry/cache/form-data-npm-4.0.2-d2e89057d5-10c0.zip/node_modules/form-data/",\
+      ["npm:4.0.5", {\
+        "packageLocation": "../../.yarn/berry/cache/form-data-npm-4.0.5-c35fce815a-10c0.zip/node_modules/form-data/",\
         "packageDependencies": [\
-          ["form-data", "npm:4.0.2"],\
+          ["form-data", "npm:4.0.5"],\
           ["asynckit", "npm:0.4.0"],\
           ["combined-stream", "npm:1.0.8"],\
           ["es-set-tostringtag", "npm:2.1.0"],\
+          ["hasown", "npm:2.0.2"],\
           ["mime-types", "npm:2.1.35"]\
         ],\
         "linkType": "HARD"\
