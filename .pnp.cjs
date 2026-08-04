@@ -34,7 +34,6 @@ const RAW_RUNTIME_STATE =
           ["autoprefixer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.4.21"],\
           ["next", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.1.6"],\
           ["openai", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.89.1"],\
-          ["postcss", "npm:8.5.23"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:19.0.0"],\
           ["react-markdown", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.1.0"],\
@@ -531,7 +530,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/node", "npm:4.0.17"],\
           ["@tailwindcss/oxide", "npm:4.0.17"],\
           ["lightningcss", "npm:1.29.2"],\
-          ["postcss", "npm:8.5.3"],\
+          ["postcss", "npm:8.5.25"],\
           ["tailwindcss", "npm:4.0.17"]\
         ],\
         "linkType": "HARD"\
@@ -726,7 +725,7 @@ const RAW_RUNTIME_STATE =
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.23"],\
+          ["postcss", null],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -2040,21 +2039,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.5.23", {\
-        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.5.23-ea01eac089-10c0.zip/node_modules/postcss/",\
+      ["npm:8.5.25", {\
+        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.5.25-0a9e708f51-10c0.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["postcss", "npm:8.5.23"],\
+          ["postcss", "npm:8.5.25"],\
           ["nanoid", "npm:3.3.17"],\
-          ["picocolors", "npm:1.1.1"],\
-          ["source-map-js", "npm:1.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:8.5.3", {\
-        "packageLocation": "../../.yarn/berry/cache/postcss-npm-8.5.3-37174aa03d-10c0.zip/node_modules/postcss/",\
-        "packageDependencies": [\
-          ["postcss", "npm:8.5.3"],\
-          ["nanoid", "npm:3.3.11"],\
           ["picocolors", "npm:1.1.1"],\
           ["source-map-js", "npm:1.2.1"]\
         ],\
@@ -2183,7 +2172,6 @@ const RAW_RUNTIME_STATE =
           ["autoprefixer", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.4.21"],\
           ["next", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:16.1.6"],\
           ["openai", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:4.89.1"],\
-          ["postcss", "npm:8.5.23"],\
           ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:19.0.0"],\
           ["react-markdown", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:10.1.0"],\
